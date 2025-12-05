@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        
+        require 'autoload.php';
     ?>
 </body>
 </html>
