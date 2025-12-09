@@ -1,5 +1,8 @@
 <?php
-class Personas extends Profesores{
-    //metodos
+class Profesores extends Personas{
+    public function __construct($id, $nombre, $edad) {
+        parent::__construct($id, $nombre, $edad);
+    }
 }
+
 ?>
